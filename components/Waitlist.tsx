@@ -11,7 +11,9 @@ const Waitlist =()=> {
       <div className="max-w-2xl mx-auto p-2 flex gap-8 my-40">
 
         <div>
-          <h1  className="relative z-10 text-4xl md:text-5xl m-5 bg-clip-text text-transparent bg-gradient-to-b text-white  text-center font-thin mt-28 ">
+          <h1  className="relative z-10 text-4xl md:text-5xl m-5 bg-clip-text text-transparent bg-gradient-to-b text-white  text-center font-thin mt-28 "
+            style={{ fontFamily: "Varino, sans-serif" }}
+          >
             COMING SOON
           </h1>
           <h1  className="relative z-10 text-lg md:text-8xl bg-clip-text text-transparent bg-gradient-to-b text-white text-center font-sans font-bold">
