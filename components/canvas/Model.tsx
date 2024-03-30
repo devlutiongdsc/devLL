@@ -9,19 +9,19 @@ import CanvasLoader from '../loader';
 
 const Model = () => {
 
-    const tron=useGLTF('./helm/scene.gltf')
+    const tron=useGLTF('./SS1/scene.gltf')
     
     return (
       <mesh>
           <hemisphereLight intensity={1}
            groundColor="black"/>
-           <pointLight intensity={20}
+           <pointLight intensity={200}
            position={[3,3,3]}/>
-           <pointLight intensity={40}
+           <pointLight intensity={0}
            position={[-3,3,3]}/>
            <primitive
               object={tron.scene}
-              scale={0.15}
+              scale={0.3}
               position={[0,0,0]}
               rotation={[0,7,-6]}
            />
