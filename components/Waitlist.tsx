@@ -3,26 +3,30 @@ import React from "react";
 import { BackgroundBeams } from "./beamBg";
 import { Helm } from "./canvas";
 
+
 const Waitlist =()=> {
   return (
-    <div className="h-[40rem] w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased">
+    <div className="h-[30rem] w-full rounded-md relative flex flex-col items-center justify-center antialiased mt-30 my-auto">
       
-      <div className="max-w-2xl mx-auto p-4 flex gap-8">
+      <div className="max-w-2xl mx-auto p-2 flex gap-8 my-40">
 
         <div>
-          <h1 className="relative z-10 text-lg md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
-            Coming Soon
+          <h1  className="relative z-10 text-4xl md:text-5xl m-5 bg-clip-text text-transparent bg-gradient-to-b text-white  text-center font-thin mt-28 ">
+            COMING SOON
+          </h1>
+          <h1  className="relative z-10 text-lg md:text-8xl bg-clip-text text-transparent bg-gradient-to-b text-white text-center font-sans font-bold">
+            DEVLUTION
           </h1>
           <p></p>
-          <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10 mt-8">
+          {/* <p className="text-white   max-w-lg mx-auto my-2 text-sm text-center relative z-10 mt-8">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
               totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntu
-          </p>
+          </p> */}
         </div>
-        <div className="pt-8 ml-5">
+        {/* <div className="pt-8 ml-5">
           <Helm />
-        </div>
+        </div> */}
         
         {/* <input
           type="text"
@@ -31,12 +35,13 @@ const Waitlist =()=> {
         /> */}
         
       </div>
+     
         
 
-      <div>
-        
-      </div>
-      <BackgroundBeams />
+      
+      
+    
+      {/* <BackgroundBeams /> */}
     </div>
   );
 }
